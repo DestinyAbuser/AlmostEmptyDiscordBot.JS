@@ -41,7 +41,7 @@ bot.on('message',message=>{
             .setColor('#24DA95 ')
             .setTitle('Rules')
             .setThumbnail(message.guild.iconURL())
-            .setDescription("Welcome to the cum zone Only cum inside anime girls  Quivering clit, double jointed pussy Fresh balls, elegant ejaculation First the kiss, then the cum")
+            .setDescription("Ur Welcome buddy!")
             .addFields(
               { name: 'Regular field title', value: message.author.username },
               { name: 'User Role', value:("All Roles", `This is the ${Moderator ? `${Moderator}` : "Here you - just nobody"} role.`) },//add display of role
@@ -72,9 +72,9 @@ bot.on('message',message=>{
             break;
         case 'info':
             if(args[1] === 'aboba'){
-                message.channel.send('WOW WHAT A NICE COCK');
+                message.channel.send('Tf ur doing here');
             }else{
-                message.reply('pathetic penis');
+                message.reply('Oh well,what wew gonna do now?');
             }
         case 'clear': 
             const deleteCount = parseInt(args[1], 10);
