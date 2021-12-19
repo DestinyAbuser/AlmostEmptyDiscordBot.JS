@@ -20,7 +20,7 @@ bot.on("guildMemberAdd",member=>{
         .setDescription(`Hi , ${member}`)
         .setImage(member.user.displayAvatarURL())
     bot.channels.cache.get("914517457765564426").send(embed);
-    member.send("We are very glad that you CUM to us ");
+    member.send("We are very glad that you come to us ");
     member.roles.add("914501078425419816")
 });
 //SOMEONE LEAVE US
